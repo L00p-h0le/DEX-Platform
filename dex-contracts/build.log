@@ -1,0 +1,8 @@
+Compiling 2 files with Solc 0.8.24
+Solc 0.8.24 finished in 682.21ms
+Error: Compiler run failed:
+Error (4486): Type rational_const 99700000000000000000000 / 10997 is not implicitly convertible to expected type uint256. Try converting to type ufixed256x58 or use an explicit conversion.
+  --> test/DEXPair.t.sol:60:9:
+   |
+60 |         uint expectedBOut = (10 ether * 997 * 100 ether) / (100 ether * 1000 + 10 ether * 997);
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
